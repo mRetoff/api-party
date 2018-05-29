@@ -1,14 +1,14 @@
 .Github {
     width: 80%;
     margin: 0 auto;
-}
-
-.Github .logo {
+  }
+  
+  .Github .logo {
     width: 100%;
     max-width: 500px;
-}
-
-.Github input {
+  }
+  
+  .Github input {
     font-family: "Gentium Book Basic", serif;
     box-sizing: border-box;
     width: 80%;
@@ -19,9 +19,9 @@
     border-radius: 5px;
     line-height: 20px;
     border: 1px solid #d1d5da;
-}
-
-.Github button {
+  }
+  
+  .Github button {
     color: white;
     margin-top: 10px;
     width: 80%;
@@ -32,4 +32,4 @@
     margin-bottom: 50px;
     background-color: #0184be;
     font-family: "Gentium Book Basic", serif;
-}
+  }

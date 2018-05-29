@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './GitHubUser.css'
 
 class GithubUser extends Component {
   constructor(props) {
@@ -18,9 +19,11 @@ class GithubUser extends Component {
   }
 
   render() {
+    const { user } = this.state
     return (
       <div className="GithubUser">
-        <h1>GitHub user: {this.props.match.params.username}</h1>
+        <img src={user.avatar.url} alt="" />
+        <h2>{user.login}</h2>
       </div>
     )
   }
