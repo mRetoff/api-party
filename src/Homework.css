@@ -1,6 +1,10 @@
 .Homework {
-    text-align: left;
     padding: 1rem;
     max-width: 40em;
     margin: 0 auto;
-  }
+}
+  
+.Homework .logo {
+  width: 100%;
+  max-width: 500px;
+}
